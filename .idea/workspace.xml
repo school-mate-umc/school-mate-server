@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55d1997-dca4-4810-8391-95f2841a443c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/userInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/schoolmate.eYhR-g.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/schoolmate.eYhR-g.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/KakaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/KakaoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/controller/KakaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/controller/KakaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/Kakaouser.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/Kakaouser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,15 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,12 +60,16 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2YjrYKJ2oEeE3NaB9TpvQcA6bAG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -77,6 +96,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uzxn\Desktop\school-mate-umc\school-mate-server\schoolMate\src\main\resources\template" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="schoolMateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="schoolMate.main" />
@@ -94,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701049876284</updated>
-      <workItem from="1701049878167" duration="5602000" />
+      <workItem from="1701049878167" duration="12630000" />
     </task>
     <servers />
   </component>
