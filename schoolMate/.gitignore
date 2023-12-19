@@ -34,3 +34,5 @@ out/
 
 .env
 src/main/resources/database.properties
+src/main/resources/application.yml
+src/test/resources/application.yml

@@ -1,19 +1,25 @@
 spring:
-#  datasource:
-#    url: jdbc:h2:mem:testdb
-#    username: sa
-#    password:
-#    driver-class-name: org.h2.Driver
+  datasource:
+    url: jdbc:mysql://localhost/schoolMate?useUnicode=true&serverTimezone=Asia/Seoul&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: never
 
-#  jpa:
-#    hibernate:
-#      ddl-auto: create
-#    properties:
-#      hibernate:
-#        show_sql: true
-#        format_sql: true
-#    open-in-view: false
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        show_sql: true
+        format_sql: true
+        use_sql_comments: true
+        hbm2ddl:
+          auto: create
+        default_batch_fetch_size: 1000
+
 
 logging.level:
   org.hibernate.SQL: debug
-#  org.hibernate.type: trace
+  org.hibernate.type: trace
