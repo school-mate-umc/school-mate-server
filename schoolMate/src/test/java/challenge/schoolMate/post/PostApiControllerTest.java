@@ -52,7 +52,7 @@ public class PostApiControllerTest {
                 .user_id(user.getUser_id()) // User 객체 설정
                 .build();
 
-        String url = "http://localhost:" + port + "/post";
+        String url = "http://localhost:" + port + "/post/";
 
         ResponseEntity<Long> responseEntity = restTemplate.postForEntity(url, requestDto, Long.class);
 

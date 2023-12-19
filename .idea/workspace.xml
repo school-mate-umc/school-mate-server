@@ -5,35 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c93c96ed-030f-4466-a253-e2f69fe4294b" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/schoolmate.eYhR-g.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/controller/KakaoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/Kakaouser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/KakaoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/userInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/schoolMate.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/KakaoLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/KakaoLoginRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/test/java/challenge/schoolMate/post/PostApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/test/java/challenge/schoolMate/post/PostApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/test/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +98,7 @@
       <recent name="C:\Users\uzxn\Desktop\school-mate-umc\school-mate-server\schoolMate\src\main\resources\template" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpashopApplicationTests">
+  <component name="RunManager" selected="JUnit.PostApiControllerTest">
     <configuration name="schoolMateApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenge.schoolMate.schoolMateApplication" />
       <module name="schoolMate.main" />
@@ -152,6 +127,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="schoolMate.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge.schoolMate.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenge.schoolMate.post" />
+      <option name="MAIN_CLASS_NAME" value="challenge.schoolMate.post.PostApiControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="schoolMateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="schoolMate.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="challenge.schoolMate.schoolMateApplication" />
@@ -161,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostApiControllerTest" />
         <item itemvalue="JUnit.JpashopApplicationTests" />
         <item itemvalue="애플리케이션.schoolMateApplication" />
       </list>
