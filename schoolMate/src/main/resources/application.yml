@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost/schoolMate?useUnicode=true&serverTimezone=Asia/Seoul&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: 5686
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
   sql:
     init:

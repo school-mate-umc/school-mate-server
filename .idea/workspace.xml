@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c93c96ed-030f-4466-a253-e2f69fe4294b" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/test/java/challenge/schoolMate/post/PostApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/test/java/challenge/schoolMate/post/PostApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/test/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
