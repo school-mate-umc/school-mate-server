@@ -1,4 +1,4 @@
-package challenge.schoolMate.service;
+package challenge.schoolMate.web.dto;
 
 import challenge.schoolMate.domain.User;
 import challenge.schoolMate.domain.post.Post;
@@ -11,16 +11,16 @@ import lombok.NoArgsConstructor;
 public class PostSaveRequestDto {
     private String title;
     private String contents;
-    private User user;
+    private String user_id;
 
     @Builder
-    public PostSaveRequestDto(String title, String contents, User user) {
+    public PostSaveRequestDto(String title, String contents, String user_id) {
         this.title = title;
         this.contents = contents;
-        this.user = user;
+        this.user_id = user_id;
     }
 
-    public Post toEntity() {
+    public Post toEntity(User user) {
         return Post.builder()
                 .title(title)
                 .contents(contents)
