@@ -11,20 +11,20 @@ import lombok.NoArgsConstructor;
 public class PostSaveRequestDto {
     private String title;
     private String contents;
-    private String user_id;
+    private Long user_id; // User ID를 Long으로 변경
 
     @Builder
-    public PostSaveRequestDto(String title, String contents, String user_id) {
+    public PostSaveRequestDto(String title, String contents, Long user_id) {
         this.title = title;
         this.contents = contents;
         this.user_id = user_id;
     }
 
-    public Post toEntity(User user) {
+    public Post toEntity() {
         return Post.builder()
                 .title(title)
                 .contents(contents)
-                .user(user)
+                .user(User.builder().user_id(user_id).build()) // User 객체를 새로 생성하여 설정
                 .build();
     }
 }

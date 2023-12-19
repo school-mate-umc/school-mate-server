@@ -12,6 +12,10 @@ public class UserRepository {
     EntityManager em;
 
     public User findById(Long id){
-        return em.find(User.class, id);
+        User user = em.find(User.class, id);
+        if (user == null) {
+            throw new IllegalArgumentException("해당 ID에 해당하는 사용자를 찾을 수 없습니다. User ID: " + id);
+        }
+        return user;
     }
 }

@@ -1,5 +1,6 @@
 package challenge.schoolMate.post;
 
+import challenge.schoolMate.domain.User;
 import challenge.schoolMate.domain.post.Post;
 import challenge.schoolMate.domain.post.PostRepository;
 import challenge.schoolMate.web.dto.PostSaveRequestDto;
@@ -40,12 +41,15 @@ public class PostApiControllerTest {
     public void Posts_등록된다() throws Exception {
         String title = "title";
         String contents = "contents";
-        String user_id = "1";
+
+        // 사용자 정보를 제공하여 PostSaveRequestDto를 생성
+        User user = new User(); // 적절한 사용자 객체 생성 또는 조회
+
         PostSaveRequestDto requestDto = PostSaveRequestDto
                 .builder()
                 .title(title)
                 .contents(contents)
-                .user_id(user_id)
+                .user_id(user.getUser_id()) // User 객체 설정
                 .build();
 
         String url = "http://localhost:" + port + "/post";

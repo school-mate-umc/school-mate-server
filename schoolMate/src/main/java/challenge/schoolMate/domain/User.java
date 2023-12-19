@@ -1,6 +1,7 @@
 package challenge.schoolMate.domain;
 
 import challenge.schoolMate.domain.post.Post;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -14,7 +15,9 @@ import java.util.List;
 @Setter
 @NoArgsConstructor //파라미터가 없는 디폴트 생성자를 생성
 public class User {
-    public User(String user_name, String nickname, String student_number, String major, String email){
+    @Builder
+    public User(Long user_id, String user_name, String nickname, String student_number, String major, String email){
+        this.user_id = user_id;
         this.user_name = user_name;
         this.nickname = nickname;
         this.student_number = student_number;
