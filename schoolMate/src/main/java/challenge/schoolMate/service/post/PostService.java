@@ -36,4 +36,12 @@ public class PostService {
 
         return postRepository.save(entity).getPost_id();
     }
+
+    @Transactional
+    public Long delete(Long id){
+        Post entity = postRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("존재하지 않는 id의 게시글입니다."));
+        postRepository.deleteById(id);
+        return entity.getPost_id();
+    }
 }
