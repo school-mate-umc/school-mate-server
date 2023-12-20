@@ -19,7 +19,6 @@ spring:
           auto: create
         default_batch_fetch_size: 1000
 
-
 logging.level:
   org.hibernate.SQL: debug
   org.hibernate.type: trace

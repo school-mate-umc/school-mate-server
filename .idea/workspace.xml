@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c93c96ed-030f-4466-a253-e2f69fe4294b" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/bin/main/challenge/schoolMate/service/post/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/bin/main/challenge/schoolMate/service/post/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/bin/main/challenge/schoolMate/web/PostApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/bin/main/challenge/schoolMate/web/PostApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/post/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/post/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/PostApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/PostApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/test/resources/application.yml" afterDir="false" />
     </list>
@@ -35,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,41 +67,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/1-kakaologin&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/uzxn/Desktop/umc/school-mate&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/1-kakaologin",
+    "last_opened_file_path": "C:/Users/uzxn/Desktop/umc/school-mate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\uzxn\Desktop\school-mate-umc\school-mate-server\schoolMate\src\main\resources\template" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostApiControllerTest">
+  <component name="RunManager" selected="애플리케이션.schoolMateApplication">
     <configuration name="schoolMateApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenge.schoolMate.schoolMateApplication" />
       <module name="schoolMate.main" />
@@ -150,16 +154,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostApiControllerTest" />
-        <item itemvalue="JUnit.JpashopApplicationTests" />
         <item itemvalue="애플리케이션.schoolMateApplication" />
+        <item itemvalue="JUnit.JpashopApplicationTests" />
+        <item itemvalue="JUnit.PostApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f55d1997-dca4-4810-8391-95f2841a443c" name="Changes" comment="" />
       <created>1701049876284</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
