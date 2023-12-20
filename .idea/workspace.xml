@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c93c96ed-030f-4466-a253-e2f69fe4294b" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/dto/PostResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/dto/PostUpdateRequestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/bin/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/bin/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/bin/main/challenge/schoolMate/service/post/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/bin/main/challenge/schoolMate/service/post/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/bin/main/challenge/schoolMate/web/PostApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/bin/main/challenge/schoolMate/web/PostApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/bin/test/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/bin/test/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/post/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/post/PostService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/PostApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/PostApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/application.yml" afterDir="false" />
