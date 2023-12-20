@@ -39,6 +39,7 @@ public class User {
     private String major;
 
     private String email;
+
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Post> post = new ArrayList<>();
 

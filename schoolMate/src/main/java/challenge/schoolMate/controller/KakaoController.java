@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
+import java.util.Map;
 
 @Controller
 public class KakaoController {
+
     @GetMapping("kakaoTerms")
     public String kakaoConnect() {
         StringBuffer url = new StringBuffer();
@@ -34,10 +35,12 @@ public class KakaoController {
         String access_token = kakaoService.getToken(code);
 
         //토큰으로 사용자 정보 담은 list 가져오기
-        ArrayList<Object> list = kakaoService.getUserInfo(access_token);
+//        ArrayList<Object> list = kakaoService.getUserInfo(access_token);
+        Map<String, Object> userInfo = kakaoService.getUserInfo(access_token);
 
         //list 모델에 담아 view로 넘김
-        model.addAttribute("list", list);
+//        model.addAttribute("list", list);
+        model.addAttribute("userInfo", userInfo);
 
         return "userInfo";
     }

@@ -11,7 +11,6 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Kakaouser {
-
     @Id
     private String userid;
     private String nickname;
