@@ -1,11 +1,10 @@
 package challenge.schoolMate.web;
 
 import challenge.schoolMate.service.post.PostService;
+import challenge.schoolMate.web.dto.PostResponseDto;
 import challenge.schoolMate.web.dto.PostSaveRequestDto;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
 @RestController
@@ -16,5 +15,10 @@ public class PostApiController {
     @PostMapping("/post")
     public Long save(@RequestBody PostSaveRequestDto requestDto) {
         return postService.save(requestDto);
+    }
+
+    @GetMapping("/post/{id}")
+    public PostResponseDto findById(@PathVariable Long id){
+        return postService.findById(id);
     }
 }
