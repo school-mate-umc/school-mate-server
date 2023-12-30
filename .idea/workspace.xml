@@ -4,20 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93c96ed-030f-4466-a253-e2f69fe4294b" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/UserRepositoryInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/index.jsp" afterDir="false" />
+    <list default="true" id="f53a235e-52f0-47c1-934b-0acd159c29e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/schoolmate.eYhR-g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/controller/KakaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/controller/KakaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/Kakaouser.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/Kakaouser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/userInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/userInfo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +39,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/schoolMate">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -42,21 +51,7 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="HTML File" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KotlinCodeInsightWorkspaceSettings">
@@ -65,41 +60,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2YjrYKJ2oEeE3NaB9TpvQcA6bAG" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2aEsL5eYLaEvZFbX8pireZSmkR6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feature/3-login",
-    "last_opened_file_path": "C:/Users/uzxn/Desktop/umc/school-mate",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.side.proportion": "0.2539267",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -108,57 +91,7 @@
     ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\uzxn\Documents\GitHub\school-mate-server\schoolMate\src\main\java\challenge\schoolMate\web" />
-      <recent name="C:\Users\uzxn\Documents\GitHub\school-mate-server\schoolMate\src\main\web" />
-      <recent name="C:\Users\uzxn\Desktop\school-mate-umc\school-mate-server\schoolMate\src\main\resources\template" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Spring Boot.schoolMateApplication">
-    <configuration name="schoolMateApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challenge.schoolMate.schoolMateApplication" />
-      <module name="schoolMate.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenge.schoolMate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpashopApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="schoolMate.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenge.schoolMate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenge.schoolMate" />
-      <option name="MAIN_CLASS_NAME" value="challenge.schoolMate.JpashopApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="schoolMate.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenge.schoolMate.post.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenge.schoolMate.post" />
-      <option name="MAIN_CLASS_NAME" value="challenge.schoolMate.post.PostApiControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="schoolMateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="schoolMate.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="challenge.schoolMate.schoolMateApplication" />
@@ -166,38 +99,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.JpashopApplicationTests" />
-        <item itemvalue="JUnit.PostApiControllerTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c93c96ed-030f-4466-a253-e2f69fe4294b" name="Changes" comment="Changes" />
-      <created>1701049876284</created>
+      <changelist id="f53a235e-52f0-47c1-934b-0acd159c29e3" name="Changes" comment="" />
+      <created>1703895017046</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1701049876284</updated>
-      <workItem from="1701049878167" duration="12630000" />
-      <workItem from="1703053934217" duration="6099000" />
+      <updated>1703895017046</updated>
+      <workItem from="1703895025484" duration="1774000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
