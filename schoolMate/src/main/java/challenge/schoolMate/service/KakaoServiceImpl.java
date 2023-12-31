@@ -3,7 +3,7 @@ package challenge.schoolMate.service;
 import challenge.schoolMate.domain.Kakaouser;
 import challenge.schoolMate.domain.User;
 import challenge.schoolMate.repository.KakaoRepository;
-import challenge.schoolMate.repository.UserRepositoryInterface;
+import challenge.schoolMate.repository.UserRepository;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -18,6 +18,13 @@ import java.util.Map;
 
 @Service
 public class KakaoServiceImpl implements KakaoService {
+
+    @Autowired
+    private KakaoRepository kakaoRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
     @Override
     public String getToken(String code) throws Exception {
         System.out.println(code);
@@ -73,17 +80,8 @@ public class KakaoServiceImpl implements KakaoService {
         return access_Token;
     }
 
-    @Autowired
-    KakaoRepository kakaoRepository;
-
-    @Autowired
-    UserRepositoryInterface userRepositoryInterface;
-
     public Map<String, Object> getUserInfo(String access_token) throws Exception {
 
-        //추가
-        HashMap<String, Object> userInfo = new HashMap<>();
-//        ArrayList<Object> list = new ArrayList<Object>();
 
         final String requestUrl = "https://kapi.kakao.com/v2/user/me";
 
@@ -121,24 +119,30 @@ public class KakaoServiceImpl implements KakaoService {
 //        list.add(name);
 //        list.add(birthday);
 
-        //추가
-        userInfo.put("nickname", name);
-        userInfo.put("email", email);
-
         //DB 저장
         Kakaouser kakaouser = new Kakaouser(email, name);
         kakaoRepository.save(kakaouser);
 
-        //DB 저장
-        User user = User.builder()
-                .user_name(name)
-                .nickname("temp_nickname")
-                .student_number("temp_student_number")
-                .major("temp_major")
-                .email(email)
-                        .build();
+        //DB
+        User user = userRepository.findByEmail(email);
+        if(user==null){
+            //이메일로 사용자 찾이 못한 경우, 새로운 사용자 생성
+            user = User.builder()
+                    .user_name(name)
+                    .nickname("temp_nickname")
+                    .student_number("temp_student_number")
+                    .major("temp_major")
+                    .email(email)
+                    .build();
+            userRepository.save(user);
+        }
 
-        userRepositoryInterface.save(user);
+        //추가
+        Map<String, Object> userInfo = new HashMap<>();
+//        ArrayList<Object> list = new ArrayList<Object>();
+
+        userInfo.put("nickname", name);
+        userInfo.put("email", email);
 
         return userInfo;
     }

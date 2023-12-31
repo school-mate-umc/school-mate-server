@@ -1,5 +1,6 @@
 package challenge.schoolMate.web.dto;
 
+import challenge.schoolMate.domain.User;
 import challenge.schoolMate.domain.post.Post;
 import lombok.Builder;
 import lombok.Getter;
@@ -8,12 +9,12 @@ import lombok.Getter;
 public class PostResponseDto {
     private String title;
     private String content;
-    private String user;
+    private User user;
 
     @Builder
     public PostResponseDto(Post entity) {
         this.title = entity.getTitle();
         this.content = entity.getContents();
-        this.user = String.valueOf(entity.getUser());
+        this.user = entity.getUser();
     }
 }

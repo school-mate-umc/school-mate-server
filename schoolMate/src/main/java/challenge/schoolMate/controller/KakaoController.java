@@ -18,7 +18,7 @@ public class KakaoController {
     @Autowired
     PostService postService;
 
-    @GetMapping("kakaoTerms")
+    @GetMapping("/login")
     public String kakaoConnect() {
         StringBuffer url = new StringBuffer();
         url.append("https://kauth.kakao.com/oauth/authorize?");
@@ -52,6 +52,7 @@ public class KakaoController {
         System.out.println("login Controller : " + userInfo);
 
         if (userInfo.get("email") != null) {
+            //세션에 사용자 정보 저장
             session.setAttribute("userId", userInfo.get("email"));
             session.setAttribute("access_Token", access_token);
         }

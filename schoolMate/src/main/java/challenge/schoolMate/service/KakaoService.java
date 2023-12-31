@@ -8,7 +8,7 @@ import java.util.Map;
 public interface KakaoService {
 
     public String getToken(String code) throws Exception ;
-//    public ArrayList<Object> getUserInfo(String access_token) throws Exception  ;
+    //    public ArrayList<Object> getUserInfo(String access_token) throws Exception  ;
     public Map<String, Object> getUserInfo(String access_token) throws Exception  ;
 
     void kakaoLogout(String accessToken);

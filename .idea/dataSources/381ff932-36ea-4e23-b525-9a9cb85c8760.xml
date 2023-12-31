@@ -1017,8 +1017,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="295" parent="1" name="schoolmate">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-12-30.18:23:43</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-12-30.00:23:43</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-12-31.17:48:41</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-12-30.23:48:41</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="296" parent="1" name="sys">
@@ -1056,187 +1056,152 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="305" parent="295" name="kakao_login">
+    <table id="305" parent="295" name="kakaouser">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="306" parent="295" name="kakaouser">
+    <table id="306" parent="295" name="post">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="307" parent="295" name="post">
+    <table id="307" parent="295" name="university">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="308" parent="295" name="university">
+    <table id="308" parent="295" name="user">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="309" parent="295" name="user">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <column id="310" parent="304" name="next_val">
+    <column id="309" parent="304" name="next_val">
       <DasType>bigint|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="311" parent="305" name="kakao_login_id">
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="312" parent="305" name="access_token">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="313" parent="305" name="email">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="314" parent="305" name="kakao_id">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="315" parent="305" name="refresh_token">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <index id="316" parent="305" name="PRIMARY">
-      <ColNames>kakao_login_id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="317" parent="305" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="318" parent="306" name="userid">
+    <column id="310" parent="305" name="userid">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="319" parent="306" name="nickname">
+    <column id="311" parent="305" name="nickname">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <index id="320" parent="306" name="PRIMARY">
+    <index id="312" parent="305" name="PRIMARY">
       <ColNames>userid</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="321" parent="306" name="PRIMARY">
+    <key id="313" parent="305" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="322" parent="307" name="post_id">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="323" parent="307" name="created_date">
-      <DasType>datetime(6)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="324" parent="307" name="modified_date">
-      <DasType>datetime(6)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="325" parent="307" name="contents">
-      <DasType>text|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <column id="326" parent="307" name="title">
-      <DasType>varchar(500)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <column id="327" parent="307" name="user_id">
-      <DasType>bigint|0s</DasType>
-      <Position>6</Position>
-    </column>
-    <foreign-key id="328" parent="307" name="FK72mt33dhhs48hf9gcqrq4fxte">
-      <ColNames>user_id</ColNames>
-      <RefColNames>user_id</RefColNames>
-      <RefTableName>user</RefTableName>
-    </foreign-key>
-    <index id="329" parent="307" name="PRIMARY">
-      <ColNames>post_id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="330" parent="307" name="FK72mt33dhhs48hf9gcqrq4fxte">
-      <ColNames>user_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="331" parent="307" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="332" parent="308" name="university_id">
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="333" parent="308" name="university_name">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="334" parent="308" name="university_point">
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <index id="335" parent="308" name="PRIMARY">
-      <ColNames>university_id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="336" parent="308" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="337" parent="309" name="user_id">
+    <column id="314" parent="306" name="post_id">
       <AutoIncrement>2</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="338" parent="309" name="email">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="315" parent="306" name="created_date">
+      <DasType>datetime(6)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="339" parent="309" name="major">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="316" parent="306" name="modified_date">
+      <DasType>datetime(6)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="340" parent="309" name="nickname">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="317" parent="306" name="contents">
+      <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="341" parent="309" name="student_number">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="318" parent="306" name="title">
+      <DasType>varchar(500)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="342" parent="309" name="university_id">
+    <column id="319" parent="306" name="user_id">
       <DasType>bigint|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="343" parent="309" name="user_name">
+    <foreign-key id="320" parent="306" name="FK72mt33dhhs48hf9gcqrq4fxte">
+      <ColNames>user_id</ColNames>
+      <RefColNames>user_id</RefColNames>
+      <RefTableName>user</RefTableName>
+    </foreign-key>
+    <index id="321" parent="306" name="PRIMARY">
+      <ColNames>post_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="322" parent="306" name="FK72mt33dhhs48hf9gcqrq4fxte">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="323" parent="306" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="324" parent="307" name="university_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="325" parent="307" name="university_name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="326" parent="307" name="university_point">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="327" parent="307" name="PRIMARY">
+      <ColNames>university_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="328" parent="307" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="329" parent="308" name="user_id">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="330" parent="308" name="email">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="331" parent="308" name="major">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="332" parent="308" name="nickname">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="333" parent="308" name="student_number">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="334" parent="308" name="university_id">
+      <DasType>bigint|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="335" parent="308" name="user_name">
       <DasType>varchar(255)|0s</DasType>
       <Position>7</Position>
     </column>
-    <index id="344" parent="309" name="PRIMARY">
+    <index id="336" parent="308" name="PRIMARY">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="345" parent="309" name="PRIMARY">
+    <key id="337" parent="308" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

@@ -17,7 +17,14 @@ public class PostService {
 
     @Transactional
     public Long save(PostSaveRequestDto requestDto) {
-        return postRepository.save(requestDto.toEntity()).getPost_id();
+        //Post 엔티티 생성하고 requestDTO의 내용을 복사
+        Post post = new Post();
+        post.setTitle(requestDto.getTitle());
+        post.setContents(requestDto.getContents());
+        post.setUser(requestDto.getUser());
+
+        // 게시글 저장
+        return postRepository.save(post).getPost_id();
     }
 
     @Transactional

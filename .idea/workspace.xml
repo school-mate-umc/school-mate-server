@@ -5,26 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f53a235e-52f0-47c1-934b-0acd159c29e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/schoolmate.eYhR-g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c94cb24-e423-4063-8033-6d5fa3e9cff5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/schoolMate.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/381ff932-36ea-4e23-b525-9a9cb85c8760.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/381ff932-36ea-4e23-b525-9a9cb85c8760.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/381ff932-36ea-4e23-b525-9a9cb85c8760/storage_v2/_src_/schema/schoolmate.eYhR-g.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/381ff932-36ea-4e23-b525-9a9cb85c8760/storage_v2/_src_/schema/schoolmate.eYhR-g.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/controller/KakaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/controller/KakaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/post/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/domain/post/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/UserRepositoryInterface.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/KakaoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/post/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/service/post/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/PostApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/PostApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/dto/PostResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/dto/PostResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/dto/PostSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/dto/PostSaveRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/userInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/main/resources/templates/userInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolMate/src/test/java/challenge/schoolMate/post/PostApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/schoolMate/src/test/java/challenge/schoolMate/post/PostApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -65,20 +74,30 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2aEsL5eYLaEvZFbX8pireZSmkR6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feature/3-login",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2539267",
@@ -91,6 +110,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uzxn\Documents\GitHub\school-mate-server\schoolMate\src\main\resources\template" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="schoolMateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="schoolMate.main" />
@@ -108,11 +132,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703895017046</updated>
-      <workItem from="1703895025484" duration="1774000" />
+      <workItem from="1703895025484" duration="21331000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/schoolMate/src/main/java/challenge/schoolMate/repository/KakaoRepository.java</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
