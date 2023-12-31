@@ -9,6 +9,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
@@ -50,5 +52,13 @@ public class PostService {
                 .orElseThrow(() -> new IllegalArgumentException("존재하지 않는 id의 게시글입니다."));
         postRepository.deleteById(id);
         return entity.getPost_id();
+    }
+
+    @Transactional
+    public List<PostResponseDto> findAllPosts(){
+        List<Post> postEntities = postRepository.findAll();
+        return postEntities.stream()
+                .map(PostResponseDto::new)
+                .collect(Collectors.toList());
     }
 }

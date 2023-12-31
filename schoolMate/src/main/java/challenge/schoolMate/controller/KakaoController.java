@@ -72,7 +72,6 @@ public class KakaoController {
             System.out.println("access_Token is null");
             //return "redirect:/";
         }
-        //return "index";
-        return "redirect:/";
+        return "redirect:/post";
     }
 }
