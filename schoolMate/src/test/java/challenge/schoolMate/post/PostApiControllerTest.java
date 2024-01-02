@@ -4,7 +4,6 @@ import challenge.schoolMate.domain.User;
 import challenge.schoolMate.domain.post.Post;
 import challenge.schoolMate.domain.post.PostRepository;
 import challenge.schoolMate.web.dto.PostSaveRequestDto;
-import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -49,7 +48,7 @@ public class PostApiControllerTest {
                 .builder()
                 .title(title)
                 .contents(contents)
-                .user_id(user.getUser_id()) // User 객체 설정
+                .user(user) // User 객체 설정
                 .build();
 
         String url = "http://localhost:" + port + "/post/";

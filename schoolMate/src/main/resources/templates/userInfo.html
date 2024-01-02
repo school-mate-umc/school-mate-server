@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>Insert title here</title>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
 </head>
 <body>
-
+<h1>로그인 성공입니다</h1>
 <table>
-  <tr>
-    <td>이메일 :</td>
-    <td th:text="${list[0]}"></td>
-  </tr>
-  <tr>
-    <td>닉네임 :</td>
-    <td th:text="${list[1]}"></td>
-  </tr>
+    <tr>
+        <td>이메일 :</td>
+        <td th:text="${userInfo['email']}"></td>
+    </tr>
+    <tr>
+        <td>닉네임 :</td>
+        <td th:text="${userInfo['nickname']}"></td>
+    </tr>
 </table>
+<input type="button" value="게시판" onclick="location.href='/post'">
 
+<input type="button" value="로그아웃" onclick="location.href='/logout'">
 </body>
 </html>

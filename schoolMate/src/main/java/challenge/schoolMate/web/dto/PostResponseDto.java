@@ -8,12 +8,12 @@ import lombok.Getter;
 public class PostResponseDto {
     private String title;
     private String content;
-    private String user;
+    private UserDto user;
 
     @Builder
     public PostResponseDto(Post entity) {
         this.title = entity.getTitle();
         this.content = entity.getContents();
-        this.user = String.valueOf(entity.getUser());
+        this.user = new UserDto(entity.getUser());
     }
 }
